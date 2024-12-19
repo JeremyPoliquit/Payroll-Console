@@ -9,7 +9,13 @@ import com.project.payroll.Entity.Employee;
 
 public interface EmployeeRepository extends CrudRepository<Employee, Long> {
 
-    // Retrieve Data
-    List<Employee> findByLastName(String lastName);
+    // Find By Last Name
+    Employee findByLastName(String lastName);
+
+    // Find By First Name
+    Employee findByFirstName(String firstName);
+
+    // Find By Id
     Employee findById(long id);
+
 }
