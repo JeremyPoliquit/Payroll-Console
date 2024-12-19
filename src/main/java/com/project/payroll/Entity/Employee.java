@@ -14,7 +14,7 @@ public class Employee {
 
     private String firstName;
     private String lastName;
-    private char sex;
+    private String sex;
 
     public Employee() {
     };
@@ -41,7 +41,7 @@ public class Employee {
         return lastName;
     }
 
-    public char getSex() {
+    public String getSex() {
         return sex;
     }
 
@@ -53,7 +53,7 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    public void setSex(char sex) {
+    public void setSex(String sex) {
         this.sex = sex;
     }
 
