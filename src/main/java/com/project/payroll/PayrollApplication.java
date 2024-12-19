@@ -28,9 +28,9 @@ public class PayrollApplication {
 			Employee employee = new Employee();
 
 			// Set the data
-			employee.setFirstName("");
-			employee.setLastName("");
-			employee.setSex('');
+			// employee.setFirstName("");
+			// employee.setLastName("");
+			// employee.setSex('');
 	
 			//  Save/Store or Insert into Database
 			repository.save(employee);
