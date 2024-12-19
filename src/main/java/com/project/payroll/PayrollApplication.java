@@ -10,9 +10,6 @@ import org.springframework.context.annotation.Bean;
 import com.project.payroll.Entity.Employee;
 import com.project.payroll.Repository.EmployeeRepository;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -106,13 +103,6 @@ public class PayrollApplication {
 			} catch (Exception err) {
 				System.out.println(err);
 			}
-
-			// Employee entity = repository.findByFirstName("John");
-			// if (entity != null) {
-			// entity.getFirstName();
-			// entity.setFirstName("Rodrigo");
-			// repository.save(entity);
-			// }
 
 		};
 	}
